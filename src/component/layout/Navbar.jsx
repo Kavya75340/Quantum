@@ -128,7 +128,7 @@ export const Navbar = () => {
                                                 animate={{ opacity: 1, y: 0 }}
                                                 exit={{ opacity: 0, y: 10 }}
                                                 transition={{ duration: 0.2 }}
-                                                className="bg-white absolute top-10 left-0 mt-2 w-72 glass-card p-2 shadow-lg"
+                                                className="bg-white absolute top-13 left-0 mt-2 w-72 glass-card p-2 shadow-lg rounded-lg"
                                             >
                                                 {item.submenu.map((subitem) => (
                                                     <a
