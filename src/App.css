@@ -1,0 +1,86 @@
+/* ROOT VARIABLES → STATIC COLORS */
+:root {
+    --background: hsl(0, 0%, 100%);
+    --foreground: hsl(0, 0%, 10%);
+  
+    --card: hsl(0, 0%, 98%);
+    --card-foreground: hsl(0, 0%, 10%);
+  
+    --popover: hsl(0, 0%, 100%);
+    --popover-foreground: hsl(0, 0%, 10%);
+  
+    --primary: hsl(0, 84%, 50%);
+    --primary-foreground: hsl(0, 0%, 100%);
+  
+    --secondary: hsl(0, 0%, 96%);
+    --secondary-foreground: hsl(0, 0%, 10%);
+  
+    --muted: hsl(0, 0%, 94%);
+    --muted-foreground: hsl(0, 0%, 45%);
+  
+    --accent: hsl(0, 84%, 50%);
+    --accent-foreground: hsl(0, 0%, 100%);
+  
+    --destructive: hsl(0, 84%, 60%);
+    --destructive-foreground: hsl(0, 0%, 100%);
+  
+    --border: hsl(0, 0%, 88%);
+    --input: hsl(0, 0%, 88%);
+    --ring: hsl(0, 84%, 50%);
+  }
+  
+
+/* ---------------------------------- */
+/* COLOR UTILITIES (Tailwind-like)    */
+/* ---------------------------------- */
+.bg-primary { background-color: var(--primary); }
+.bg-primary-foreground { background-color: var(--primary-foreground); }
+
+.text-primary { color: var(--primary); }
+.text-primary-foreground { color: var(--primary-foreground); }
+
+.border-primary { border-color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
+.bg-secondary-foreground { background-color: var(--secondary-foreground); }
+
+.text-secondary { color: var(--secondary); }
+.text-secondary-foreground { color: var(--secondary-foreground); }
+
+.border-secondary { border-color: var(--secondary); }
+.bg-background { background-color: var(--background); }
+.text-background { color: var(--background); }
+.border-background { border-color: var(--background); }
+.bg-foreground { background-color: var(--foreground); }
+.text-foreground { color: var(--foreground); }
+.border-foreground { border-color: var(--foreground); }
+.bg-card { background-color: var(--card); }
+.bg-card-foreground { background-color: var(--card-foreground); }
+
+.text-card { color: var(--card); }
+.text-card-foreground { color: var(--card-foreground); }
+
+.border-card { border-color: var(--card); }
+.bg-muted { background-color: var(--muted); }
+.text-muted { color: var(--muted); }
+
+.text-muted-foreground { color: var(--muted-foreground); }
+.border-muted { border-color: var(--muted); }
+.bg-accent { background-color: var(--accent); }
+.text-accent { color: var(--accent); }
+
+.text-accent-foreground { color: var(--accent-foreground); }
+.border-accent { border-color: var(--accent); }
+.bg-destructive { background-color: var(--destructive); }
+.text-destructive { color: var(--destructive); }
+
+.text-destructive-foreground { color: var(--destructive-foreground); }
+.border-destructive { border-color: var(--destructive); }
+.border-border { border-color: var(--border); }
+.border-input { border-color: var(--input); }
+.border-ring { border-color: var(--ring); }
+.bg-primary-50 { background-color: hsl(0, 84%, 50%, 0.5); }
+.bg-secondary-50 { background-color: hsl(0, 0%, 96%, 0.5); }
+.bg-muted-50 { background-color: hsl(0, 0%, 94%, 0.5); }
+.bg-card-80 { background-color: hsl(0, 0%, 98%, 0.8); }
+
+.border-border-30 { border-color: hsl(0, 0%, 88%, 0.3); }
