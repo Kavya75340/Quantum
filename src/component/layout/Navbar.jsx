@@ -134,7 +134,7 @@ export const Navbar = () => {
                                                     <a
                                                         key={subitem.label}
                                                         href="#"
-                                                        className="block p-3 rounded-lg hover:bg-secondary/50 transition-colors"
+                                                        className="block p-2 rounded-lg hover:bg-secondary/50 transition-colors"
                                                     >
                                                         <div className="font-medium text-foreground">
                                                             {subitem.label}
