@@ -44,7 +44,7 @@ const navItems = [
             {
                 label: "Programming & Data Structure Essentials",
                 description:
-                    "Strengthen foundational coding skills and understand core data structures.",
+                    "Strengthen foundational coding skills (C, C++, Python) and understand core Data Structures.",
             },
         ],
     },
