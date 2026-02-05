@@ -6,10 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <div classname="bg-background text-foreground min-h-screen">
-            <BrowserRouter>
-                <App />
-            </BrowserRouter>
-        </div>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
     </StrictMode>
 );
