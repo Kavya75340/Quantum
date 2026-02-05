@@ -12,9 +12,9 @@ const navItems = [
         label: "Roadmaps",
         submenu: [
             {
-                label: "DefSpace & IT Professional",
+                label: "DefSpace & IT Infra Professional",
                 description:
-                    "Prepare for roles in defense, aerospace, and mission-critical IT environments.",
+                    "Prepare for roles in defense-space, and mission-critical IT environments.",
             },
             {
                 label: "Cloud Engineering & DevOps",
@@ -32,7 +32,7 @@ const navItems = [
                     "Leverage data, analytics, and AI to drive business decisions and growth.",
             },
             {
-                label: "Leadership & Project Management",
+                label: "Leadership & Project Mngt.",
                 description:
                     "Develop leadership capability and learn to deliver projects successfully.",
             },
@@ -42,7 +42,7 @@ const navItems = [
                     "Design intelligent embedded systems and build connected IoT applications.",
             },
             {
-                label: "Programming & Data Structure Essentials",
+                label: "Programming & DS Essentials",
                 description:
                     "Strengthen foundational coding skills (C, C++, Python) and understand core Data Structures.",
             },
