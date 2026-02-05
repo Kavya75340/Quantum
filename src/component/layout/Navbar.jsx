@@ -12,6 +12,11 @@ const navItems = [
         label: "Roadmaps",
         submenu: [
             {
+                label: "DefSpace & IT Professional",
+                description:
+                    "Prepare for roles in defense, aerospace, and mission-critical IT environments.",
+            },
+            {
                 label: "Cloud Engineering & DevOps",
                 description:
                     "Master cloud platforms and learn to automate end-to-end deployment pipelines.",
@@ -20,11 +25,6 @@ const navItems = [
                 label: "Cybersecurity & DevSecOps",
                 description:
                     "Build secure systems with modern defense strategies and continuous security practices.",
-            },
-            {
-                label: "DefSpace & IT Professional",
-                description:
-                    "Prepare for roles in defense, aerospace, and mission-critical IT environments.",
             },
             {
                 label: "Business, AI & Data Analytics",
@@ -91,7 +91,7 @@ export const Navbar = () => {
     const [activeMenu, setActiveMenu] = useState(null);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 glass-card bg-white">
+        <nav className="fixed top-0 left-0 right-0 z-50  bg-white">
             <div className="container mx-auto px-6">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
@@ -114,7 +114,7 @@ export const Navbar = () => {
                                 onMouseLeave={() => setActiveMenu(null)}
                             >
                                 <button className="flex items-center gap-1 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-                                    {item.label}
+                                    <a href="/">{item.label}</a>
                                     {item.submenu && (
                                         <ChevronDown className="w-4 h-4" />
                                     )}
@@ -128,7 +128,14 @@ export const Navbar = () => {
                                                 animate={{ opacity: 1, y: 0 }}
                                                 exit={{ opacity: 0, y: 10 }}
                                                 transition={{ duration: 0.2 }}
-                                                className="bg-white absolute top-13 left-0 mt-2 w-72 glass-card p-2 shadow-lg rounded-lg"
+                                                className={`bg-white absolute top-13 left-0 mt-2 glass-card p-3 shadow-lg rounded-lg
+                                                        ${
+                                                            item.submenu
+                                                                .length > 4
+                                                                ? "grid grid-cols-2 w-[550px]"
+                                                                : "grid grid-cols-1 w-90"
+                                                        }
+                                                         gap-x-6 gap-y-2`}
                                             >
                                                 {item.submenu.map((subitem) => (
                                                     <a
@@ -157,7 +164,7 @@ export const Navbar = () => {
                     <div className="hidden lg:flex items-center gap-3">
                         <button
                             variant="ghost"
-                            className="text-muted-foreground bg-white p-6 hover:text-foreground hover:bg-primary"
+                            className="text-muted-foreground p-6 hover:text-foreground hover:bg-primary"
                         >
                             Sign In
                         </button>
