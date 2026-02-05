@@ -102,6 +102,7 @@ const navItems = [
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [activeMenu, setActiveMenu] = useState(null);
+    const [openSubmenu, setOpenSubmenu] = useState(null);
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50  bg-white">
@@ -208,19 +209,88 @@ export const Navbar = () => {
                             initial={{ height: 0, opacity: 0 }}
                             animate={{ height: "auto", opacity: 1 }}
                             exit={{ height: 0, opacity: 0 }}
-                            className="lg:hidden overflow-hidden"
+                            className="lg:hidden overflow-hidden bg-white"
                         >
                             <div className="py-4 space-y-2">
                                 {navItems.map((item) => (
-                                    <a
-                                        key={item.label}
-                                        href="#"
-                                        className="block px-4 py-2 text-muted-foreground hover:text-foreground transition-colors"
-                                    >
-                                        {item.label}
-                                    </a>
+                                    <div key={item.label}>
+                                        {/* 🔹 Top-level item */}
+                                        <button
+                                            onClick={() =>
+                                                item.submenu
+                                                    ? setOpenSubmenu(
+                                                          openSubmenu ===
+                                                              item.label
+                                                              ? null
+                                                              : item.label
+                                                      )
+                                                    : null
+                                            }
+                                            className="w-full flex items-center justify-between px-4 py-2 text-left text-muted-foreground hover:text-foreground"
+                                        >
+                                            <span>{item.label}</span>
+                                            {item.submenu && (
+                                                <ChevronDown
+                                                    className={`w-4 h-4 transition-transform ${
+                                                        openSubmenu ===
+                                                        item.label
+                                                            ? "rotate-180"
+                                                            : ""
+                                                    }`}
+                                                />
+                                            )}
+                                        </button>
+
+                                        {/* 🔸 Submenu Items */}
+                                        <AnimatePresence>
+                                            {item.submenu &&
+                                                openSubmenu === item.label && (
+                                                    <motion.div
+                                                        initial={{
+                                                            height: 0,
+                                                            opacity: 0,
+                                                        }}
+                                                        animate={{
+                                                            height: "auto",
+                                                            opacity: 1,
+                                                        }}
+                                                        exit={{
+                                                            height: 0,
+                                                            opacity: 0,
+                                                        }}
+                                                        className="pl-6 pr-4 space-y-2 overflow-hidden"
+                                                    >
+                                                        {item.submenu.map(
+                                                            (subitem) => (
+                                                                <a
+                                                                    key={
+                                                                        subitem.label
+                                                                    }
+                                                                    href={
+                                                                        subitem.href
+                                                                    }
+                                                                    className="block py-2 text-sm text-muted-foreground hover:text-foreground"
+                                                                >
+                                                                    <div className="font-medium">
+                                                                        {
+                                                                            subitem.label
+                                                                        }
+                                                                    </div>
+                                                                    <div className="text-xs opacity-75">
+                                                                        {
+                                                                            subitem.description
+                                                                        }
+                                                                    </div>
+                                                                </a>
+                                                            )
+                                                        )}
+                                                    </motion.div>
+                                                )}
+                                        </AnimatePresence>
+                                    </div>
                                 ))}
 
+                                {/* Bottom Buttons */}
                                 <div className="pt-4 space-y-2 border-t border-border">
                                     <Button
                                         variant="ghost"
