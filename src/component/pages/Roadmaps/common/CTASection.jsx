@@ -4,7 +4,7 @@ import { Button } from "@/component/ui/button";
 
 const CTASection = () => {
     return (
-        <section className="py-20 bg-gradient-to-r from-primary to-primary/80">
+        <section className="py-24 bg-gradient-to-r from-primary to-primary/80">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
