@@ -1,9 +1,9 @@
-import HeroSection from "./sections/HeroSection";
-import FeaturesSection from "./sections/FeaturesSection";
-import RoadmapSection from "./sections/RoadmapSection";
-import CTASection from "./sections/CTASection";
+import HeroSection from "./programmingds/HeroSection";
+import FeaturesSection from "./common/FeaturesSection";
+import RoadmapSection from "./programmingds/RoadmapSection";
+import CTASection from "./common/CTASection";
 
-const CyberSecurity = () => {
+const ProgrammingDS = () => {
     return (
         <div className="min-h-screen bg-background">
             {/* ================= HERO ================= */}
@@ -21,4 +21,4 @@ const CyberSecurity = () => {
     );
 };
 
-export default CyberSecurity;
+export default ProgrammingDS;

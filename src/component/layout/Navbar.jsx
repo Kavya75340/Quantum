@@ -2,11 +2,11 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X, GraduationCap } from "lucide-react";
 import { Button } from "@/component//ui/button.jsx";
-import { label, sub } from "framer-motion/client";
 
 const navItems = [
     {
         label: "Home",
+        href: "/",
     },
     {
         label: "Roadmaps",
@@ -15,36 +15,43 @@ const navItems = [
                 label: "DefSpace & IT Infra Professional",
                 description:
                     "Prepare for roles in defense-space, and mission-critical IT environments.",
+                href: "/roadmaps/defspace-it-infra",
             },
             {
                 label: "Cloud Engineering & DevOps",
                 description:
                     "Master cloud platforms and learn to automate end-to-end deployment pipelines.",
+                href: "/roadmaps/cloud-devops",
             },
             {
                 label: "Cybersecurity & DevSecOps",
                 description:
                     "Build secure systems with modern defense strategies and continuous security practices.",
+                href: "/roadmaps/cybersecurity-devsecops",
             },
             {
                 label: "Business, AI & Data Analytics",
                 description:
                     "Leverage data, analytics, and AI to drive business decisions and growth.",
+                href: "/roadmaps/business-ai-analytics",
             },
             {
                 label: "Leadership & Project Mngt.",
                 description:
                     "Develop leadership capability and learn to deliver projects successfully.",
+                href: "/roadmaps/leadership-project-management",
             },
             {
                 label: "Embedded, IoT Software Track",
                 description:
                     "Design intelligent embedded systems and build connected IoT applications.",
+                href: "/roadmaps/embedded-iot",
             },
             {
                 label: "Programming & DS Essentials",
                 description:
                     "Strengthen foundational coding skills (C, C++, Python) and understand core Data Structures.",
+                href: "/roadmaps/programming-ds-essentials",
             },
         ],
     },
@@ -55,11 +62,13 @@ const navItems = [
                 label: "Corporate",
                 description:
                     "Gain hands-on experience in a corporate environment.",
+                href: "/internship/corporate",
             },
             {
                 label: "College / University",
                 description:
                     "Internship opportunities for college and university students.",
+                href: "/internship/college-university",
             },
         ],
     },
@@ -69,18 +78,22 @@ const navItems = [
             {
                 label: "Blog",
                 description: "Read the latest articles and updates.",
+                href: "/blog",
             },
             {
                 label: "Resources",
                 description: "Access helpful learning materials and guides.",
+                href: "/resources",
             },
             {
                 label: "About",
                 description: "Learn more about our mission and team.",
+                href: "/about",
             },
             {
                 label: "Contact",
                 description: "Get in touch with us for support or inquiries.",
+                href: "/contact",
             },
         ],
     },
@@ -140,7 +153,9 @@ export const Navbar = () => {
                                                 {item.submenu.map((subitem) => (
                                                     <a
                                                         key={subitem.label}
-                                                        href="#"
+                                                        href={
+                                                            subitem.href || "#"
+                                                        }
                                                         className="block p-2 rounded-lg hover:bg-black/10 transition-colors"
                                                     >
                                                         <div className="font-medium text-foreground">
