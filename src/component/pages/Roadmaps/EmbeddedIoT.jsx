@@ -1,19 +1,20 @@
-import HeroSection from "./embedded/HeroSection";
+import HeroSection from "./common/HeroSection";
 import FeaturesSection from "./common/FeaturesSection";
-import RoadmapSection from "./embedded/RoadmapSection";
+import RoadmapSection from "./common/RoadmapSection";
 import CTASection from "./common/CTASection";
+import { embedded, embeddedIoTRoadmap } from "./data/embedded";
 
 const Embedded = () => {
     return (
         <div className="min-h-screen bg-background">
             {/* ================= HERO ================= */}
-            <HeroSection />
+            <HeroSection data={embedded} />
 
             {/* ================= FEATURES ================= */}
             <FeaturesSection />
 
             {/* ================= ROADMAP ================= */}
-            <RoadmapSection />
+            <RoadmapSection data={embeddedIoTRoadmap} />
 
             {/* ================= CTA ================= */}
             <CTASection />

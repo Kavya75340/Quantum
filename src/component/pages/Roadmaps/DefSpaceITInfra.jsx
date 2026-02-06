@@ -1,19 +1,20 @@
-import HeroSection from "./defspace/HeroSection";
+import HeroSection from "./common/HeroSection";
 import FeaturesSection from "./common/FeaturesSection";
-import RoadmapSection from "./defspace/RoadmapSection";
+import RoadmapSection from "./common/RoadmapSection";
 import CTASection from "./common/CTASection";
+import { defSpace, defSpaceInfraRoadmap } from "./data/defSpace";
 
 const DefSpace = () => {
     return (
         <div className="min-h-screen bg-background">
             {/* ================= HERO ================= */}
-            <HeroSection />
+            <HeroSection data={defSpace} />
 
             {/* ================= FEATURES ================= */}
             <FeaturesSection />
 
             {/* ================= ROADMAP ================= */}
-            <RoadmapSection />
+            <RoadmapSection data={defSpaceInfraRoadmap} />
 
             {/* ================= CTA ================= */}
             <CTASection />

@@ -46,12 +46,13 @@ export const Footer = () => {
                     {/* Brand Column */}
                     <div className="col-span-2">
                         <div className="flex items-center gap-2 mb-4">
-                            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                                <GraduationCap className="w-6 h-6 text-primary-foreground" />
-                            </div>
-                            <span className="font-display font-bold text-xl">
-                                QuantumTraining
-                            </span>
+                            <a href="/">
+                                <img
+                                    src="/QuantumTraining_.png"
+                                    className="w-50"
+                                    alt="logo"
+                                />
+                            </a>
                         </div>
 
                         <p className="text-muted-foreground text-sm mb-6 max-w-xs">

@@ -69,7 +69,7 @@ export const Features = () => {
                         transition={{ duration: 0.5 }}
                     >
                         <span className="text-primary font-medium mb-4 block">
-                            WHY QuantumTraining
+                            WHY Quantum Training
                         </span>
                         <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
                             The Complete Platform for{" "}

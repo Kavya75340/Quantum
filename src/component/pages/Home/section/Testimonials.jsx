@@ -3,14 +3,14 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
     {
-        quote: "QuantumTraining 's cybersecurity program helped me transition from IT support to a Security Analyst role in just 6 months. The hands-on labs made all the difference.",
+        quote: "Quantum Training 's cybersecurity program helped me transition from IT support to a Security Analyst role in just 6 months. The hands-on labs made all the difference.",
         author: "Sarah Chen",
         role: "Security Analyst",
         company: "Fortune 500 Bank",
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
     },
     {
-        quote: "We've trained over 500 employees on QuantumTraining . The analytics dashboard gives us complete visibility into skill development across the organization.",
+        quote: "We've trained over 500 employees on Quantum Training . The analytics dashboard gives us complete visibility into skill development across the organization.",
         author: "Michael Torres",
         role: "Head of L&D",
         company: "Global Tech Corp",
@@ -57,7 +57,7 @@ export const Testimonials = () => {
                     </h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
                         See how professionals and organizations are transforming
-                        their careers and workforce with QuantumTraining .
+                        their careers and workforce with Quantum Training .
                     </p>
                 </motion.div>
 

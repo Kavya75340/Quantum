@@ -1,19 +1,20 @@
-import HeroSection from "./cloudengineering/HeroSection";
+import HeroSection from "./common/HeroSection";
 import FeaturesSection from "./common/FeaturesSection";
-import RoadmapSection from "./cloudengineering/RoadmapSection";
+import RoadmapSection from "./common/RoadmapSection";
 import CTASection from "./common/CTASection";
+import { cloudDevOpsRoadmap, cloudEngineering } from "./data/cloudEngineering";
 
 const CloudEngineering = () => {
     return (
         <div className="min-h-screen bg-background">
             {/* ================= HERO ================= */}
-            <HeroSection />
+            <HeroSection data={cloudEngineering} />
 
             {/* ================= FEATURES ================= */}
             <FeaturesSection />
 
             {/* ================= ROADMAP ================= */}
-            <RoadmapSection />
+            <RoadmapSection data={cloudDevOpsRoadmap} />
 
             {/* ================= CTA ================= */}
             <CTASection />

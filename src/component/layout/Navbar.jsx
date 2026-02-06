@@ -110,12 +110,13 @@ export const Navbar = () => {
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <div className="flex items-center gap-2">
-                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                            <GraduationCap className="w-6 h-6 text-primary-foreground" />
-                        </div>
-                        <span className="font-display font-bold text-xl">
-                            QuantumTraining
-                        </span>
+                        <a href="/">
+                            <img
+                                src="/QuantumTraining_.png"
+                                className="w-50"
+                                alt="logo"
+                            />
+                        </a>
                     </div>
 
                     {/* Desktop Nav */}

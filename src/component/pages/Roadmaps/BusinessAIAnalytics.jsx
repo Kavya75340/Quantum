@@ -1,19 +1,20 @@
-import HeroSection from "./businessai/HeroSection";
-import RoadmapSection from "./businessai/RoadmapSection";
+import HeroSection from "./common/HeroSection";
+import RoadmapSection from "./common/RoadmapSection";
 import CTASection from "./common/CTASection";
 import FeaturesSection from "./common/FeaturesSection";
+import { businessAiData, businessAIRoadmap } from "./data/businessAiData";
 
 const BusinessAI = () => {
     return (
         <div className="min-h-screen bg-background">
             {/* ================= HERO ================= */}
-            <HeroSection />
+            <HeroSection data={businessAiData} />
 
             {/* ================= FEATURES ================= */}
             <FeaturesSection />
 
             {/* ================= ROADMAP ================= */}
-            <RoadmapSection />
+            <RoadmapSection data={businessAIRoadmap} />
 
             {/* ================= CTA ================= */}
             <CTASection />
