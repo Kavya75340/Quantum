@@ -19,8 +19,8 @@ import ProgrammingDSEssentials from "@/component/pages/Roadmaps/ProgrammingDSEss
 
 // // More
 // import Blog from "@/component/pages/Blog/Blog";
-// import Resources from "@/component/pages/Resources/Resources";
-// import About from "@/component/pages/About/About";
+import Resources from "../component/pages/More/Resources";
+import About from "../component/pages/More/About";
 // import Contact from "@/component/pages/Contact/Contact";
 
 const AppRoutes = () => {
@@ -61,10 +61,10 @@ const AppRoutes = () => {
             /> */}
 
             {/* MORE */}
-            {/* <Route path="/blog" element={<Blog />} />
+            {/* <Route path="/blog" element={<Blog />} /> */}
             <Route path="/resources" element={<Resources />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} /> */}
+            {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
     );
 };
