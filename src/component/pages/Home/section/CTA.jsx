@@ -29,7 +29,7 @@ export const CTA = () => {
 
                     <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
                         Join thousands of professionals and organizations who
-                        trust Quantum Training for their tech education and
+                        trust Quantum Training for their tech journey and
                         workforce development.
                     </p>
 
@@ -52,7 +52,7 @@ export const CTA = () => {
                     </div>
 
                     <p className="text-sm text-muted-foreground mt-6">
-                        No credit card required • 14-day free trial • Cancel
+                        No credit card required • 7-day free trial • Cancel
                         anytime
                     </p>
                 </motion.div>

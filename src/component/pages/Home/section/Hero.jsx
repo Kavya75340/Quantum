@@ -83,7 +83,7 @@ export const Hero = () => {
                     >
                         <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                         <span className="text-sm font-medium text-muted-foreground">
-                            Trusted by 10,000+ organizations worldwide
+                            Trusted by 50+ organizations worldwide
                         </span>
                     </motion.div>
 
@@ -108,7 +108,7 @@ export const Hero = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
                     >
-                        Industry-leading courses in Cybersecurity, Data Science,
+                        Industry-leading courses in DefSpace, Cybersecurity,
                         Cloud Computing, and AI. Learn from experts and
                         accelerate your career with hands-on labs.
                     </motion.p>
@@ -146,10 +146,10 @@ export const Hero = () => {
                         className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20"
                     >
                         {[
-                            { value: "500+", label: "Courses" },
-                            { value: "50K+", label: "Students" },
-                            { value: "95%", label: "Success Rate" },
-                            { value: "100+", label: "Certifications" },
+                            { value: "10+", label: "Successful Roadmaps" },
+                            { value: "10K+", label: "Students" },
+                            { value: "95%", label: "Success Ratio" },
+                            { value: "100+", label: "Research Publication" },
                         ].map((stat, index) => (
                             <div key={index} className="text-center">
                                 <div className="text-3xl md:text-4xl font-display font-bold gradient-text">

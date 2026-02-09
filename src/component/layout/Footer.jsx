@@ -101,22 +101,34 @@ export const Footer = () => {
 
                     <div className="flex gap-6">
                         <a
-                            href="#"
+                            href="/privacy"
                             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                         >
                             Privacy Policy
                         </a>
                         <a
-                            href="#"
+                            href="/terms-condition"
                             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                         >
-                            Terms of Service
+                            Terms of Condition
                         </a>
                         <a
-                            href="#"
+                            href="/cookie-policy"
                             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                         >
                             Cookie Policy
+                        </a>
+                        <a
+                            href="/refund-cancellation"
+                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            Refund & Cancellation
+                        </a>
+                        <a
+                            href="/accessibility"
+                            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            Accessibility
                         </a>
                     </div>
                 </div>

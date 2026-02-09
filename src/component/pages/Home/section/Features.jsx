@@ -74,7 +74,7 @@ export const Features = () => {
                         <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
                             The Complete Platform for{" "}
                             <span className="gradient-text">
-                                Tech Education
+                                Tech Psychology
                             </span>
                         </h2>
                         <p className="text-muted-foreground text-lg mb-10">

@@ -120,7 +120,7 @@ export const Navbar = () => {
                     </div>
 
                     {/* Desktop Nav */}
-                    <div className="hidden bg-white lg:flex items-center gap-1">
+                    <div className="hidden lg:flex items-center gap-1">
                         {navItems.map((item) => (
                             <div
                                 key={item.label}
@@ -143,7 +143,7 @@ export const Navbar = () => {
                                                 animate={{ opacity: 1, y: 0 }}
                                                 exit={{ opacity: 0, y: 10 }}
                                                 transition={{ duration: 0.2 }}
-                                                className={`absolute top-13 left-0 mt-2 glass-card p-3 shadow-lg rounded-lg
+                                                className={`absolute top-13 left-0 mt-2 glass-effect p-3 shadow-lg rounded-lg
                                                         ${
                                                             item.submenu
                                                                 .length > 4

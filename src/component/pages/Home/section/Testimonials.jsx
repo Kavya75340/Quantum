@@ -3,25 +3,25 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
     {
-        quote: "Quantum Training 's cybersecurity program helped me transition from IT support to a Security Analyst role in just 6 months. The hands-on labs made all the difference.",
-        author: "Sarah Chen",
-        role: "Security Analyst",
-        company: "Fortune 500 Bank",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
+        quote: "Quantum Training 's embedded, IoT Software Track program helped me transition from IT support to a software role in just 6 months. The hands-on labs made all the difference.",
+        author: "Neha Singh",
+        role: "Tech Lead",
+        company: "HCL",
+        image: "/neha.jpeg",
     },
     {
-        quote: "We've trained over 500 employees on Quantum Training . The analytics dashboard gives us complete visibility into skill development across the organization.",
-        author: "Michael Torres",
-        role: "Head of L&D",
-        company: "Global Tech Corp",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+        quote: "We've trained over 50+ employees on Quantum Training . The analytics dashboard gives us complete visibility into skill development across the organization.",
+        author: "Ritesham Shastri",
+        role: "Director",
+        company: "Rapidcode Technologies",
+        image: "/ritesham.png",
     },
     {
-        quote: "The AI and ML courses are incredibly comprehensive. I earned my TensorFlow certification and landed a role as a Machine Learning Engineer.",
-        author: "Priya Sharma",
-        role: "ML Engineer",
-        company: "AI Startup",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+        quote: "The Cloud Engineering & DevOps courses are incredibly comprehensive. I earned my TensorFlow certification and landed a role as a Cloud Engineer & DevOps Engineer.",
+        author: "Nishant Sharma",
+        role: "Solution Architecture",
+        company: "Coralogix",
+        image: "/nishant.jpeg",
     },
 ];
 
@@ -104,8 +104,9 @@ export const Testimonials = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center"
                 >
-                    <p className="text-sm text-muted-foreground mb-8">
-                        TRUSTED BY LEADING COMPANIES WORLDWIDE
+                    <p className="text-sm text-muted-foreground mb-8 uppercase">
+                        Our Trainees Are Trusted by Top Companies Across the
+                        Globe
                     </p>
 
                     <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">

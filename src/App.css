@@ -130,6 +130,15 @@
     transition: all 0.25s ease;
   }
   
+  .glass-effect{
+    background: hsla(0,0%,100%,0.15);
+    border: 1px solid hsla(0,0%,100%,0.25);
+    backdrop-filter: blur(16px);
+    border-radius: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+
+  }
+  
   /* LIFT */
   .hover-lift {
     transition: all 0.25s ease;
