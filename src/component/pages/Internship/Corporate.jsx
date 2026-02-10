@@ -44,128 +44,132 @@ const staggerContainer = {
 const trainingPrograms = [
     {
         icon: Shield,
-        title: "Cybersecurity Training",
+        title: "Cybersecurity Enablement",
         description:
-            "Protect your organization with comprehensive security awareness and advanced threat defense programs.",
-        courses: "45+ Courses",
-        learners: "12K+ Trained",
+            "Strengthen your enterprise with structured security awareness and advanced cyber defense initiatives.",
+        courses: "45+ Programs",
+        learners: "12K+ Enabled",
     },
     {
         icon: Cloud,
-        title: "Cloud Computing",
+        title: "Cloud Infrastructure",
         description:
-            "Master AWS, Azure, and GCP with hands-on labs and real-world architecture projects.",
-        courses: "60+ Courses",
-        learners: "18K+ Trained",
+            "Build expertise across AWS, Azure, and GCP through practical labs and real-world architecture use cases.",
+        courses: "60+ Programs",
+        learners: "18K+ Enabled",
     },
     {
         icon: Brain,
-        title: "AI & Machine Learning",
+        title: "AI & Machine Intelligence",
         description:
-            "Transform your workforce with cutting-edge AI skills, from fundamentals to advanced deep learning.",
-        courses: "35+ Courses",
-        learners: "10K+ Trained",
+            "Empower teams with next-generation AI capabilities, from core concepts to advanced deep learning systems.",
+        courses: "35+ Programs",
+        learners: "10K+ Enabled",
     },
     {
         icon: Code2,
-        title: "Software Engineering",
+        title: "Software Development",
         description:
-            "Full-stack development, DevOps, and modern engineering practices for high-performing teams.",
-        courses: "80+ Courses",
-        learners: "25K+ Trained",
+            "Modern full-stack engineering, DevOps pipelines, and scalable development practices for elite teams.",
+        courses: "80+ Programs",
+        learners: "25K+ Enabled",
     },
     {
         icon: BarChart3,
-        title: "Data Science & Analytics",
+        title: "Data Science & Insights",
         description:
-            "Unlock data-driven decision making with analytics, visualization, and statistical modeling.",
-        courses: "50+ Courses",
-        learners: "15K+ Trained",
+            "Drive smarter decisions using analytics, visualization frameworks, and applied statistical modeling.",
+        courses: "50+ Programs",
+        learners: "15K+ Enabled",
     },
     {
         icon: Layers,
-        title: "Digital Transformation",
+        title: "Digital Modernization",
         description:
-            "End-to-end digital strategy, agile methodologies, and change management for enterprises.",
-        courses: "30+ Courses",
-        learners: "8K+ Trained",
+            "Comprehensive digital roadmaps, agile execution models, and enterprise change enablement strategies.",
+        courses: "30+ Programs",
+        learners: "8K+ Enabled",
     },
 ];
 
 const industries = [
-    { icon: Building2, name: "Banking & Finance", companies: "200+" },
-    { icon: HeadphonesIcon, name: "Technology", companies: "350+" },
-    { icon: Globe, name: "Healthcare", companies: "120+" },
-    { icon: Briefcase, name: "Manufacturing", companies: "180+" },
-    { icon: Shield, name: "Government", companies: "90+" },
-    { icon: Rocket, name: "Startups", companies: "500+" },
+    {
+        icon: Building2,
+        name: "Banking & Financial Services",
+        companies: "200+",
+    },
+    { icon: HeadphonesIcon, name: "Technology Services", companies: "350+" },
+    { icon: Globe, name: "Healthcare & Life Sciences", companies: "120+" },
+    { icon: Briefcase, name: "Industrial Manufacturing", companies: "180+" },
+    { icon: Shield, name: "Public Sector", companies: "90+" },
+    { icon: Rocket, name: "Startup Ecosystem", companies: "500+" },
 ];
 
 const stats = [
-    { value: "2,500+", label: "Enterprise Clients" },
-    { value: "1M+", label: "Professionals Trained" },
-    { value: "500+", label: "Training Programs" },
-    { value: "98%", label: "Client Retention" },
+    { value: "2,500+", label: "Corporate Clients" },
+    { value: "100k+", label: "Professionals Upskilled" },
+    { value: "50+", label: "Learning Tracks" },
+    { value: "98%", label: "Client Retention Rate" },
 ];
 
 const benefits = [
     {
         icon: Target,
-        title: "Custom Learning Paths",
+        title: "Personalized Learning Journeys",
         description:
-            "Tailored curricula aligned to your business goals, skill gaps, and industry requirements.",
+            "Role-based curricula mapped to organizational objectives, capability gaps, and industry benchmarks.",
     },
     {
         icon: BarChart3,
-        title: "Real-Time Analytics",
+        title: "Actionable Insights",
         description:
-            "Track progress, measure ROI, and identify skill gaps with our advanced analytics dashboard.",
+            "Monitor performance, evaluate ROI, and uncover skill gaps using real-time analytics and reporting.",
     },
     {
         icon: Users,
-        title: "Dedicated Success Manager",
+        title: "Dedicated Program Advisor",
         description:
-            "A personal account manager to ensure seamless onboarding and continuous program optimization.",
+            "A single point of contact ensuring smooth onboarding, engagement, and continuous improvement.",
     },
     {
         icon: GraduationCap,
-        title: "Industry Certifications",
+        title: "Certification Readiness",
         description:
-            "Prepare your teams for globally recognized certifications from AWS, Google, Microsoft, and more.",
+            "Structured preparation for globally recognized credentials from AWS, Google, Microsoft, and others.",
     },
     {
         icon: Zap,
-        title: "Hands-On Labs",
+        title: "Immersive Hands-On Labs",
         description:
-            "Practice in real cloud environments with 1,000+ interactive labs and sandbox projects.",
+            "Real cloud environments with 1,000+ guided labs, simulations, and sandbox-based projects.",
     },
     {
         icon: Globe,
-        title: "Global Delivery",
+        title: "Worldwide Delivery Model",
         description:
-            "Multi-language support, flexible scheduling, and delivery across 150+ countries.",
+            "Flexible scheduling, multilingual support, and learning delivery across 150+ global locations.",
     },
 ];
 
 const testimonials = [
     {
-        quote: "Quantum Training transformed our entire engineering division. The ROI was visible within 3 months — our cloud migration timeline was cut in half.",
+        quote: "Quantum Training elevated our engineering organization. Measurable ROI appeared within 90 days, and our cloud transformation accelerated significantly.",
         name: "Sarah Chen",
-        role: "CTO, Fortune 500 Tech Company",
+        role: "Chief Technology Officer",
         company: "TechVantage Inc.",
         rating: 5,
     },
     {
-        quote: "The customized cybersecurity program reduced our security incidents by 73%. Their hands-on approach made all the difference.",
+        quote: "The tailored cybersecurity engagement lowered incident rates by over 70%. Their practical approach delivered immediate impact.",
         name: "Michael Roberts",
-        role: "CISO, Global Financial Services",
+        role: "Chief Information Security Officer",
         company: "SecureBank Group",
         rating: 5,
     },
     {
-        quote: "We upskilled 5,000 employees in AI/ML within 6 months. The dedicated success manager and analytics dashboard were game changers.",
+        quote: "We successfully upskilled 5,000 professionals in AI and ML within six months. The insights dashboard and success leadership were standout differentiators.",
         name: "Priya Sharma",
-        role: "VP of Learning & Development",
+        role: "VP – Learning & Development",
         company: "InnovateCorp",
         rating: 5,
     },
@@ -174,27 +178,27 @@ const testimonials = [
 const processSteps = [
     {
         step: "01",
-        title: "Skill Gap Analysis",
+        title: "Capability Assessment",
         description:
-            "We assess your team's current capabilities and identify critical skill gaps aligned with your business objectives.",
+            "We evaluate existing skill levels and pinpoint priority gaps aligned with strategic business outcomes.",
     },
     {
         step: "02",
-        title: "Custom Program Design",
+        title: "Program Architecture",
         description:
-            "Our learning architects build tailored curricula with hands-on labs, real-world projects, and certification paths.",
+            "Our experts design customized learning paths incorporating labs, projects, and certification journeys.",
     },
     {
         step: "03",
-        title: "Expert-Led Delivery",
+        title: "Guided Execution",
         description:
-            "Industry practitioners deliver training through live sessions, self-paced modules, and blended learning formats.",
+            "Experienced practitioners deliver training through live sessions, self-paced modules, and blended formats.",
     },
     {
         step: "04",
-        title: "Measure & Optimize",
+        title: "Performance Optimization",
         description:
-            "Track learner progress, measure business impact, and continuously refine programs based on analytics.",
+            "Continuously track progress, measure impact, and refine programs using data-driven insights.",
     },
 ];
 
@@ -290,10 +294,10 @@ const Corporate = () => {
                                 transition={{ duration: 0.5, delay: 0.2 }}
                                 className="text-xl text-muted-foreground max-w-xl mb-8"
                             >
-                                Quantum Training delivers enterprise-grade
-                                upskilling programs in Cybersecurity, AI, Cloud,
-                                and Data Science — tailored to your business
-                                goals with measurable ROI.
+                                Quantum Training delivers enterprise-ready
+                                upskilling solutions across Cybersecurity, AI,
+                                Cloud, and Data Science — aligned with business
+                                priorities and proven performance outcomes.
                             </motion.p>
 
                             <motion.div
@@ -305,7 +309,7 @@ const Corporate = () => {
                                     size="lg"
                                     className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg group"
                                 >
-                                    Request a Demo
+                                    Schedule a Demo
                                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                 </Button>
                                 <Button
@@ -314,7 +318,7 @@ const Corporate = () => {
                                     className="border-border hover:bg-secondary/50 px-8 py-6 text-lg group"
                                 >
                                     <Play className="mr-2 w-5 h-5" />
-                                    Watch Overview
+                                    View Platform Overview
                                 </Button>
                             </motion.div>
 
@@ -325,7 +329,7 @@ const Corporate = () => {
                                 className="mt-12"
                             >
                                 <p className="text-sm text-muted-foreground mb-4">
-                                    Trusted by industry leaders
+                                    Chosen by leading global enterprises
                                 </p>
                                 <div className="flex flex-wrap gap-6 items-center">
                                     {[
@@ -354,11 +358,11 @@ const Corporate = () => {
                             <Card className="glass-card p-8 glow-effect">
                                 <div className="text-center mb-6">
                                     <h3 className="font-display text-2xl font-bold mb-2">
-                                        Get a Custom Training Plan
+                                        Build Your Custom Training Roadmap
                                     </h3>
                                     <p className="text-muted-foreground text-sm">
-                                        Fill out the form and our team will
-                                        reach out within 24 hours
+                                        Share your details and our specialists
+                                        will connect with you within 24 hours
                                     </p>
                                 </div>
                                 <form
@@ -378,7 +382,7 @@ const Corporate = () => {
                                     />
                                     <Input
                                         type="email"
-                                        placeholder="Work Email"
+                                        placeholder="Business Email"
                                         value={formData.email}
                                         onChange={(e) =>
                                             setFormData({
@@ -389,7 +393,7 @@ const Corporate = () => {
                                         className="bg-background/50 border-border"
                                     />
                                     <Input
-                                        placeholder="Company Name"
+                                        placeholder="Organization Name"
                                         value={formData.company}
                                         onChange={(e) =>
                                             setFormData({
@@ -400,7 +404,7 @@ const Corporate = () => {
                                         className="bg-background/50 border-border"
                                     />
                                     <Input
-                                        placeholder="Phone Number"
+                                        placeholder="Contact Number"
                                         value={formData.phone}
                                         onChange={(e) =>
                                             setFormData({
@@ -421,28 +425,28 @@ const Corporate = () => {
                                         className="w-full h-10 px-3 rounded-md border border-border bg-background/50 text-sm text-foreground"
                                     >
                                         <option value="">
-                                            Number of Employees
+                                            Organization Size
                                         </option>
-                                        <option value="50-200">50 - 200</option>
+                                        <option value="50-200">50 – 200</option>
                                         <option value="200-500">
-                                            200 - 500
+                                            200 – 500
                                         </option>
                                         <option value="500-1000">
-                                            500 - 1,000
+                                            500 – 1,000
                                         </option>
                                         <option value="1000-5000">
-                                            1,000 - 5,000
+                                            1,000 – 5,000
                                         </option>
                                         <option value="5000+">5,000+</option>
                                     </select>
                                     <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-6 text-lg">
-                                        Get Started{" "}
+                                        Start the Conversation
                                         <ArrowRight className="ml-2 w-5 h-5" />
                                     </Button>
                                 </form>
                                 <p className="text-xs text-muted-foreground text-center mt-4">
-                                    🔒 Your information is secure and will never
-                                    be shared
+                                    🔒 Your details remain confidential and
+                                    fully protected
                                 </p>
                             </Card>
                         </motion.div>
@@ -668,13 +672,13 @@ const Corporate = () => {
                         <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
                             <Globe className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
-                                Industries We Serve
+                                Industries We Support
                             </span>
                         </span>
                         <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-                            Transforming Teams{" "}
+                            Powering Workforce Excellence{" "}
                             <span className="gradient-text">
-                                Across Industries
+                                Across Sectors
                             </span>
                         </h2>
                     </motion.div>
@@ -698,7 +702,7 @@ const Corporate = () => {
                                             {industry.name}
                                         </h4>
                                         <p className="text-xs text-muted-foreground">
-                                            {industry.companies} Companies
+                                            {industry.companies} Organizations
                                         </p>
                                     </CardContent>
                                 </Card>
@@ -718,12 +722,12 @@ const Corporate = () => {
                         <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
                             <Star className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
-                                Client Success Stories
+                                Customer Success Highlights
                             </span>
                         </span>
                         <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-                            What Our{" "}
-                            <span className="gradient-text">Clients Say</span>
+                            Hear From{" "}
+                            <span className="gradient-text">Our Partners</span>
                         </h2>
                     </motion.div>
 
@@ -750,7 +754,7 @@ const Corporate = () => {
                                             ))}
                                         </div>
                                         <p className="text-foreground mb-6 italic leading-relaxed">
-                                            "{testimonial.quote}"
+                                            “{testimonial.quote}”
                                         </p>
                                         <div className="border-t border-border pt-4">
                                             <div className="font-semibold">
@@ -770,7 +774,6 @@ const Corporate = () => {
                     </div>
                 </div>
             </section>
-
             {/* CTA Section */}
             <section className="py-24 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(0,84%,50%,0.08)_0%,_transparent_60%)]" />
@@ -781,20 +784,20 @@ const Corporate = () => {
                     >
                         <h2 className="font-display text-4xl md:text-6xl font-bold mb-6">
                             Ready to{" "}
-                            <span className="gradient-text">Transform</span>{" "}
-                            Your Workforce?
+                            <span className="gradient-text">Elevate</span> Your
+                            Workforce?
                         </h2>
                         <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-                            Join 2,500+ enterprises that trust Quantum Training
-                            to upskill their teams. Get a customized training
-                            proposal in 24 hours.
+                            Partner with 2,500+ organizations that rely on
+                            Quantum Training to future-proof their teams.
+                            Receive a tailored training plan within 24 hours.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Button
                                 size="lg"
                                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-10 py-6 text-lg group"
                             >
-                                Schedule a Consultation
+                                Book a Strategy Call
                                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </Button>
                             <Button
@@ -802,21 +805,21 @@ const Corporate = () => {
                                 variant="outline"
                                 className="border-border hover:bg-secondary/50 px-10 py-6 text-lg"
                             >
-                                Download Brochure
+                                Get Company Deck
                             </Button>
                         </div>
                         <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="w-5 h-5 text-primary" />
-                                Free Consultation
+                                Zero-Cost Consultation
                             </div>
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="w-5 h-5 text-primary" />
-                                Custom Learning Paths
+                                Personalized Skill Roadmaps
                             </div>
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="w-5 h-5 text-primary" />
-                                ROI Guarantee
+                                Measurable ROI
                             </div>
                         </div>
                     </motion.div>

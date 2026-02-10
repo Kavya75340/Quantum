@@ -25,18 +25,18 @@ import {
 } from "lucide-react";
 
 const resourceCategories = [
-    { id: "all", label: "All Resources", icon: Filter },
-    { id: "ebooks", label: "E-Books", icon: BookOpen },
-    { id: "videos", label: "Video Tutorials", icon: Video },
-    { id: "cheatsheets", label: "Cheat Sheets", icon: FileText },
-    { id: "tools", label: "Tools & Templates", icon: Code },
+    { id: "all", label: "Full Asset Vault", icon: Filter },
+    { id: "ebooks", label: "Digital Playbooks", icon: BookOpen },
+    { id: "videos", label: "Pro Video Sessions", icon: Video },
+    { id: "cheatsheets", label: "Instant Reference Sheets", icon: FileText },
+    { id: "tools", label: "Systems & Frameworks", icon: Code },
 ];
 
 const featuredResources = [
     {
-        title: "Complete Cybersecurity Handbook 2026",
+        title: "Corporate Cybersecurity Playbook 2026",
         description:
-            "400+ pages covering everything from network security to ethical hacking. Industry-standard practices.",
+            "400+ pages detailing network protection, risk control, and ethical penetration practices aligned with global standards.",
         type: "E-Book",
         icon: Shield,
         downloads: "25K+",
@@ -45,9 +45,9 @@ const featuredResources = [
         image: "📚",
     },
     {
-        title: "AWS Solutions Architect Masterclass",
+        title: "AWS Solutions Architect Pro Track",
         description:
-            "50+ hours of video content with hands-on labs. Prepare for AWS certification.",
+            "50+ hours of guided video instruction with practical labs built for AWS certification success.",
         type: "Video Course",
         icon: Cloud,
         downloads: "18K+",
@@ -56,9 +56,9 @@ const featuredResources = [
         image: "🎬",
     },
     {
-        title: "Machine Learning Cheat Sheet Bundle",
+        title: "Machine Learning Knowledge Toolkit",
         description:
-            "Quick reference guides for TensorFlow, PyTorch, scikit-learn, and more.",
+            "Focused reference material covering TensorFlow, PyTorch, scikit-learn, and essential ML pipelines.",
         type: "Cheat Sheet",
         icon: Brain,
         downloads: "32K+",
@@ -70,7 +70,7 @@ const featuredResources = [
 
 const allResources = [
     {
-        title: "Linux Command Line Mastery",
+        title: "Linux Command Line Proficiency",
         type: "E-Book",
         category: "ebooks",
         icon: Code,
@@ -78,7 +78,7 @@ const allResources = [
         premium: false,
     },
     {
-        title: "Docker & Kubernetes Guide",
+        title: "Docker & Kubernetes Deployment Guide",
         type: "Video",
         category: "videos",
         icon: Cloud,
@@ -86,7 +86,7 @@ const allResources = [
         premium: true,
     },
     {
-        title: "Python Security Scripts",
+        title: "Python Security Automation Scripts",
         type: "Template",
         category: "tools",
         icon: Shield,
@@ -94,7 +94,7 @@ const allResources = [
         premium: false,
     },
     {
-        title: "SQL Injection Prevention",
+        title: "SQL Injection Defense Techniques",
         type: "Cheat Sheet",
         category: "cheatsheets",
         icon: Database,
@@ -102,7 +102,7 @@ const allResources = [
         premium: false,
     },
     {
-        title: "Penetration Testing Toolkit",
+        title: "Advanced Penetration Testing Toolkit",
         type: "Tools",
         category: "tools",
         icon: Shield,
@@ -110,7 +110,7 @@ const allResources = [
         premium: true,
     },
     {
-        title: "Cloud Architecture Patterns",
+        title: "High-Scale Cloud Architecture Models",
         type: "E-Book",
         category: "ebooks",
         icon: Cloud,
@@ -118,7 +118,7 @@ const allResources = [
         premium: false,
     },
     {
-        title: "AI/ML Interview Prep",
+        title: "AI & ML Interview Accelerator",
         type: "Video",
         category: "videos",
         icon: Brain,
@@ -126,7 +126,7 @@ const allResources = [
         premium: true,
     },
     {
-        title: "Network Security Fundamentals",
+        title: "Core Network Security Concepts",
         type: "E-Book",
         category: "ebooks",
         icon: Shield,
@@ -134,7 +134,7 @@ const allResources = [
         premium: false,
     },
     {
-        title: "Terraform Templates Pack",
+        title: "Terraform Infrastructure Blueprints",
         type: "Template",
         category: "tools",
         icon: Code,
@@ -142,7 +142,7 @@ const allResources = [
         premium: false,
     },
     {
-        title: "DevOps Pipeline Templates",
+        title: "Enterprise DevOps Pipeline Systems",
         type: "Tools",
         category: "tools",
         icon: Zap,
@@ -150,7 +150,7 @@ const allResources = [
         premium: true,
     },
     {
-        title: "API Security Best Practices",
+        title: "API Security Implementation Guide",
         type: "Cheat Sheet",
         category: "cheatsheets",
         icon: Code,
@@ -158,7 +158,7 @@ const allResources = [
         premium: false,
     },
     {
-        title: "Data Science with Python",
+        title: "Practical Data Science Using Python",
         type: "Video",
         category: "videos",
         icon: Database,
@@ -168,10 +168,10 @@ const allResources = [
 ];
 
 const stats = [
-    { value: "500+", label: "Free Resources", icon: BookOpen },
-    { value: "1M+", label: "Downloads", icon: Download },
-    { value: "50K+", label: "Active Learners", icon: Users },
-    { value: "4.9", label: "Avg Rating", icon: Star },
+    { value: "200+", label: "Curated Assets", icon: BookOpen },
+    { value: "100K+", label: "Total Downloads", icon: Download },
+    { value: "20K+", label: "Skilled Learners", icon: Users },
+    { value: "4.9", label: "Community Rating", icon: Star },
 ];
 
 const Resources = () => {

@@ -21,107 +21,112 @@ import {
 } from "lucide-react";
 
 const stats = [
-    { value: "2019", label: "Founded" },
-    { value: "50K+", label: "Students Trained" },
-    { value: "120+", label: "Countries Reached" },
-    { value: "500+", label: "Courses Created" },
+    { value: "2019", label: "Established" },
+    { value: "50K+", label: "Learners Empowered" },
+    { value: "120+", label: "Global Presence" },
+    { value: "500+", label: "Programs Delivered" },
 ];
 
 const values = [
     {
         icon: Target,
-        title: "Mission-Driven",
+        title: "Purpose-Led",
         description:
-            "We're on a mission to democratize tech education and make cybersecurity skills accessible to everyone.",
+            "Our purpose is to scale access to technology education and enable in-demand cybersecurity capabilities worldwide.",
     },
     {
         icon: Heart,
-        title: "Student-First",
+        title: "Learner-Centric",
         description:
-            "Every decision we make starts with one question: How does this help our students succeed?",
+            "Every initiative begins with one focus: accelerating meaningful outcomes for our learners.",
     },
     {
         icon: Zap,
-        title: "Innovation",
+        title: "Future-Ready Innovation",
         description:
-            "We constantly push boundaries to deliver cutting-edge curriculum that reflects real-world demands.",
+            "We continuously evolve our curriculum to stay aligned with real-world, industry-driven skill demands.",
     },
     {
         icon: Shield,
-        title: "Integrity",
+        title: "Trust & Transparency",
         description:
-            "We believe in transparent, honest education. No shortcuts, no fluff—just real skills.",
+            "We stand for clear, honest learning—no shortcuts, no hype, only job-ready expertise.",
     },
 ];
 
 const milestones = [
     {
         year: "2019",
-        title: "Quantum Training Founded",
-        description: "Started with a vision to transform tech education.",
+        title: "Quantum Training Launched",
+        description:
+            "Founded with a commitment to modernize technology education.",
     },
     {
         year: "2020",
-        title: "First 10,000 Students",
-        description: "Rapid growth during global shift to remote learning.",
+        title: "10,000 Learners Achieved",
+        description:
+            "Scaled rapidly during the global transition to digital learning.",
     },
     {
         year: "2021",
-        title: "Enterprise Launch",
-        description: "Launched B2B platform for corporate training.",
+        title: "Enterprise Solutions Introduced",
+        description:
+            "Rolled out B2B learning platforms for workforce upskilling.",
     },
     {
         year: "2022",
-        title: "AI Curriculum Added",
-        description: "Expanded into AI/ML and data science tracks.",
+        title: "AI Learning Tracks Released",
+        description:
+            "Expanded offerings into AI, ML, and data-driven disciplines.",
     },
     {
         year: "2023",
-        title: "50,000 Students Milestone",
-        description: "Celebrating our growing global community.",
+        title: "50,000 Learners Milestone",
+        description: "Strengthened our global learner and enterprise network.",
     },
     {
         year: "2024",
-        title: "Global Certification Partner",
-        description: "Official partner for major industry certifications.",
+        title: "Global Certification Alliance",
+        description:
+            "Recognized as an official partner for leading industry credentials.",
     },
 ];
 
 const team = [
     {
         name: "Dr. Sarah Chen",
-        role: "Founder & CEO",
-        bio: "Former CISO at Fortune 500. 15+ years in cybersecurity.",
+        role: "Founder & Chief Executive Officer",
+        bio: "Former Fortune 500 CISO with 15+ years of cybersecurity leadership.",
         image: "👩‍💼",
     },
     {
         name: "Marcus Johnson",
         role: "Chief Learning Officer",
-        bio: "EdTech pioneer. Built learning platforms for 1M+ users.",
+        bio: "EdTech leader who has built platforms serving over one million learners.",
         image: "👨‍💻",
     },
     {
         name: "Priya Patel",
-        role: "VP of Engineering",
-        bio: "Ex-Google. Cloud architecture expert and AWS Hero.",
+        role: "Vice President of Engineering",
+        bio: "Ex-Google engineer specializing in cloud architecture and AWS solutions.",
         image: "👩‍🔬",
     },
     {
         name: "David Kim",
-        role: "Head of Content",
-        bio: "Authored 5 bestselling cybersecurity textbooks.",
+        role: "Head of Curriculum",
+        bio: "Author of five top-selling books in cybersecurity education.",
         image: "👨‍🏫",
     },
     {
         name: "Elena Rodriguez",
-        role: "Director of Partnerships",
-        bio: "Built enterprise training programs for 100+ companies.",
+        role: "Director of Strategic Partnerships",
+        bio: "Designed and scaled enterprise learning programs for 100+ organizations.",
         image: "👩‍💼",
     },
     {
         name: "James Wright",
-        role: "Lead Instructor",
-        bio: "Ethical hacker with 10+ certifications. Bug bounty hunter.",
+        role: "Lead Technical Instructor",
+        bio: "Certified ethical hacker with 10+ credentials and active bug bounty experience.",
         image: "🧑‍💻",
     },
 ];
@@ -173,9 +178,9 @@ const About = () => {
                     </h1>
 
                     <p className="text-xl text-muted-foreground mb-10">
-                        Quantum Training was founded with a simple belief:
-                        everyone deserves access to world-class cybersecurity
-                        and tech education.
+                        Quantum Training was built on a core principle:
+                        world-class cybersecurity and technology education
+                        should be accessible to all.
                     </p>
 
                     <div className="flex justify-center gap-4 flex-wrap">
@@ -234,18 +239,19 @@ const About = () => {
                             </h2>
 
                             <p className="text-muted-foreground text-lg mb-6">
-                                We believe that cybersecurity isn't just for
-                                experts—it's for everyone. In a world where
-                                digital threats evolve daily, we're committed to
-                                arming individuals and organizations with the
-                                skills they need to protect what matters.
+                                We believe cybersecurity is not limited to
+                                specialists—it is a fundamental skill for the
+                                modern world. As digital risks accelerate, we
+                                focus on equipping individuals and enterprises
+                                with the expertise required to stay secure and
+                                resilient.
                             </p>
 
                             <p className="text-muted-foreground text-lg mb-8">
-                                From complete beginners to seasoned
-                                professionals, our courses are designed to meet
-                                learners where they are and take them where they
-                                need to go.
+                                Whether starting from scratch or advancing
+                                existing expertise, our programs are structured
+                                to guide learners from their current level to
+                                real-world professional impact.
                             </p>
 
                             <div className="flex flex-wrap gap-4">
@@ -285,9 +291,9 @@ const About = () => {
                                         Our Vision
                                     </h3>
                                     <p className="text-muted-foreground">
-                                        A world where everyone has the skills to
-                                        navigate and protect the digital
-                                        landscape.
+                                        A future where every individual is
+                                        empowered to operate confidently and
+                                        securely within the digital ecosystem.
                                     </p>
                                 </div>
                             </div>
