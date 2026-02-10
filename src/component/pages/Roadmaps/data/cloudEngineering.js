@@ -20,7 +20,7 @@ export const cloudDevOpsRoadmap = {
       duration: "4–6 Weeks",
       icon: Terminal,
       checkIcon: CheckCircle2,
-      color: "from-primary to-primary/80",
+      color: "gradient-primary-1",
       skills: [
         "Linux Fundamentals",
         "Networking Basics",
@@ -35,7 +35,7 @@ export const cloudDevOpsRoadmap = {
       duration: "6–8 Weeks",
       icon: Cloud,
       checkIcon: CheckCircle2,
-      color: "from-primary/90 to-primary/70",
+      color: "gradient-primary-2",
       skills: [
         "AWS Core Services",
         "Azure / GCP Basics",
@@ -50,7 +50,7 @@ export const cloudDevOpsRoadmap = {
       duration: "8–10 Weeks",
       icon: Shield,
       checkIcon: CheckCircle2,
-      color: "from-primary/80 to-primary/60",
+      color: "gradient-primary-3",
       skills: [
         "CI/CD Pipelines",
         "Jenkins / GitHub Actions",
@@ -65,7 +65,7 @@ export const cloudDevOpsRoadmap = {
       duration: "6–8 Weeks",
       icon: Server,
       checkIcon: CheckCircle2,
-      color: "from-primary/70 to-primary/50",
+      color: "gradient-primary-4",
       skills: [
         "Docker Containers",
         "Kubernetes Basics",
@@ -80,7 +80,7 @@ export const cloudDevOpsRoadmap = {
       duration: "8–10 Weeks",
       icon: Lock,
       checkIcon: CheckCircle2,
-      color: "from-primary/60 to-primary/40",
+      color: "gradient-primary-5",
       skills: [
         "Cloud Security Best Practices",
         "DevSecOps",
@@ -95,7 +95,7 @@ export const cloudDevOpsRoadmap = {
       duration: "Ongoing",
       icon: Award,
       checkIcon: CheckCircle2,
-      color: "from-primary/50 to-primary/30",
+      color: "gradient-primary-6",
       skills: [
         "System Design",
         "Cost Optimization",

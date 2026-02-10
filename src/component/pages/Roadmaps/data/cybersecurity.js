@@ -1,4 +1,3 @@
-
 import {
   Terminal,
   Shield,
@@ -53,7 +52,8 @@ export const cybersecurity = {
 
 export const cybersecurityRoadmap = {
   title: "Cybersecurity",
-  subtitle: "A complete roadmap to become a cybersecurity professional—from fundamentals to advanced security engineering.",
+  subtitle:
+    "A complete roadmap to become a cybersecurity professional—from fundamentals to advanced security engineering.",
 
   steps: [
     {
@@ -62,7 +62,7 @@ export const cybersecurityRoadmap = {
       duration: "4–6 Weeks",
       icon: Terminal,
       checkIcon: CheckCircle2,
-      color: "from-primary to-primary/80",
+      color: "gradient-primary-1",
       skills: [
         "Linux Basics",
         "Networking Essentials",
@@ -77,7 +77,7 @@ export const cybersecurityRoadmap = {
       duration: "6–8 Weeks",
       icon: Shield,
       checkIcon: CheckCircle2,
-      color: "from-primary/90 to-primary/70",
+      color: "gradient-primary-2",
       skills: [
         "Security Fundamentals",
         "Cryptography Introduction",
@@ -92,7 +92,7 @@ export const cybersecurityRoadmap = {
       duration: "8–10 Weeks",
       icon: Cloud,
       checkIcon: CheckCircle2,
-      color: "from-primary/80 to-primary/60",
+      color: "gradient-primary-3",
       skills: [
         "AWS Basics",
         "Azure Fundamentals",
@@ -107,7 +107,7 @@ export const cybersecurityRoadmap = {
       duration: "6–8 Weeks",
       icon: Server,
       checkIcon: CheckCircle2,
-      color: "from-primary/70 to-primary/50",
+      color: "gradient-primary-4",
       skills: [
         "Infrastructure as Code",
         "Terraform / Ansible",
@@ -122,7 +122,7 @@ export const cybersecurityRoadmap = {
       duration: "8–10 Weeks",
       icon: Lock,
       checkIcon: CheckCircle2,
-      color: "from-primary/60 to-primary/40",
+      color: "gradient-primary-5",
       skills: [
         "Penetration Testing",
         "Threat Analysis",
@@ -137,7 +137,7 @@ export const cybersecurityRoadmap = {
       duration: "Ongoing",
       icon: Award,
       checkIcon: CheckCircle2,
-      color: "from-primary/50 to-primary/30",
+      color: "gradient-primary-6",
       skills: [
         "Security Architecture",
         "Compliance & Audit",

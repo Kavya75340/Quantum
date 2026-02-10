@@ -47,7 +47,7 @@ const RoadmapSection = ({ data }) => {
                                         <CardContent className="p-0">
                                             {/* Header */}
                                             <div
-                                                className={`bg-gradient-to-r ${step.color} p-4`}
+                                                className={`${step.color} p-4`}
                                             >
                                                 <div className="flex items-center gap-3">
                                                     <div className="w-12 h-12 rounded-xl bg-background/20 flex items-center justify-center">

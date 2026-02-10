@@ -143,7 +143,7 @@ export const FeaturedCourses = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="glass-card p-6 hover-lift group cursor-pointer"
+                            className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-6 hover-lift group cursor-pointer"
                         >
                             <div className="flex items-start gap-4">
                                 <div

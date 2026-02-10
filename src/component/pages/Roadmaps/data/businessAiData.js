@@ -1,4 +1,4 @@
-import { BrainCircuit, BarChart3, Terminal, CheckCircle2, Shield, Cloud, Server, Award } from "lucide-react";
+import { BrainCircuit, BarChart3, Terminal, CheckCircle2, Shield, Cloud, Server, Award ,Lock} from "lucide-react";
 
 export const businessAiData = {
   badge: {
@@ -53,7 +53,7 @@ export const businessAIRoadmap = {
       duration: "4–6 Weeks",
       icon: Terminal,
       checkIcon: CheckCircle2,
-      color: "from-primary to-primary/80",
+      color: "gradient-primary-1",
       skills: [
         "Data Fundamentals",
         "Excel & Spreadsheets",
@@ -68,7 +68,7 @@ export const businessAIRoadmap = {
       duration: "6–8 Weeks",
       icon: Shield,
       checkIcon: CheckCircle2,
-      color: "from-primary/90 to-primary/70",
+      color: "gradient-primary-2",
       skills: [
         "Data Analysis Techniques",
         "Business Metrics & KPIs",
@@ -83,7 +83,7 @@ export const businessAIRoadmap = {
       duration: "8–10 Weeks",
       icon: Cloud,
       checkIcon: CheckCircle2,
-      color: "from-primary/80 to-primary/60",
+      color: "gradient-primary-3",
       skills: [
         "Cloud Data Platforms",
         "Intro to Machine Learning",
@@ -98,7 +98,7 @@ export const businessAIRoadmap = {
       duration: "6–8 Weeks",
       icon: Server,
       checkIcon: CheckCircle2,
-      color: "from-primary/70 to-primary/50",
+      color: "gradient-primary-4",
       skills: [
         "Python for Analytics",
         "Power BI / Tableau",
@@ -113,7 +113,7 @@ export const businessAIRoadmap = {
       duration: "8–10 Weeks",
       icon: Lock,
       checkIcon: CheckCircle2,
-      color: "from-primary/60 to-primary/40",
+      color: "gradient-primary-5",
       skills: [
         "Predictive Analytics",
         "Business Forecasting",
@@ -128,7 +128,7 @@ export const businessAIRoadmap = {
       duration: "Ongoing",
       icon: Award,
       checkIcon: CheckCircle2,
-      color: "from-primary/50 to-primary/30",
+      color: "gradient-primary-6",
       skills: [
         "Analytics Strategy",
         "Stakeholder Communication",

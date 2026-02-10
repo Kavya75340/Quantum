@@ -242,7 +242,7 @@ const College = () => {
     return (
         <div className="min-h-screen bg-background">
             {/* Hero Section */}
-            <section className="relative min-h-screen flex items-center overflow-hidden pt-16">
+            <section className="relative min-h-screen flex items-center overflow-hidden pt-32 pb-20">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_hsl(0,84%,50%,0.08)_0%,_transparent_50%)]" />
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_hsl(0,84%,50%,0.05)_0%,_transparent_50%)]" />
                 <div className="absolute inset-0 opacity-20">

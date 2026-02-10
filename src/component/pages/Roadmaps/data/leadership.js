@@ -21,7 +21,7 @@ export const leadershipProjectMgmtRoadmap = {
       duration: "4–6 Weeks",
       icon: Terminal,
       checkIcon: CheckCircle2,
-      color: "from-primary to-primary/80",
+      color: "gradient-primary-1",
       skills: [
         "Leadership Mindset",
         "Communication Skills",
@@ -36,7 +36,7 @@ export const leadershipProjectMgmtRoadmap = {
       duration: "6–8 Weeks",
       icon: Shield,
       checkIcon: CheckCircle2,
-      color: "from-primary/90 to-primary/70",
+      color: "gradient-primary-2",
       skills: [
         "Project Lifecycle",
         "Scope & Planning",
@@ -51,7 +51,7 @@ export const leadershipProjectMgmtRoadmap = {
       duration: "8–10 Weeks",
       icon: Cloud,
       checkIcon: CheckCircle2,
-      color: "from-primary/80 to-primary/60",
+      color: "gradient-primary-3",
       skills: [
         "Agile & Scrum",
         "Sprint Planning",
@@ -66,7 +66,7 @@ export const leadershipProjectMgmtRoadmap = {
       duration: "6–8 Weeks",
       icon: Server,
       checkIcon: CheckCircle2,
-      color: "from-primary/70 to-primary/50",
+      color: "gradient-primary-4",
       skills: [
         "Team Building",
         "Conflict Resolution",
@@ -81,7 +81,7 @@ export const leadershipProjectMgmtRoadmap = {
       duration: "8–10 Weeks",
       icon: Lock,
       checkIcon: CheckCircle2,
-      color: "from-primary/60 to-primary/40",
+      color: "gradient-primary-5",
       skills: [
         "Strategic Planning",
         "Risk Mitigation",
@@ -96,7 +96,7 @@ export const leadershipProjectMgmtRoadmap = {
       duration: "Ongoing",
       icon: Award,
       checkIcon: CheckCircle2,
-      color: "from-primary/50 to-primary/30",
+      color: "gradient-primary-6",
       skills: [
         "Executive Communication",
         "Business Alignment",

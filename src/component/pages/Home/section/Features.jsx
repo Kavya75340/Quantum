@@ -46,12 +46,12 @@ const features = [
 ];
 
 const benefits = [
-    "Unlimited access to 500+ courses",
-    "Interactive hands-on labs",
-    "Skill assessments & analytics",
-    "Mobile learning support",
-    "Certificate of completion",
-    "24/7 community support",
+    "Access to Defence, Space & IT Infrastructure focused programs",
+    "Hands-on labs on networks, servers, cloud & secure systems",
+    "Real-world infrastructure simulations & performance analytics",
+    "Learning support across desktop & enterprise environments",
+    "Industry-recognized training completion certificate",
+    "24/7 expert-led technical & community support",
 ];
 
 export const Features = () => {
@@ -120,48 +120,49 @@ export const Features = () => {
                         className="relative"
                     >
                         <div className="glass-card p-8 relative overflow-hidden">
-                            {/* Glow Effect */}
-                            <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
+                            {/* Glow */}
+                            <div className="absolute -top-20 -right-20 w-40 h-40 bg-green-700/20 rounded-full blur-3xl" />
 
-                            <div className="relative z-10">
-                                <h3 className="font-display text-2xl font-bold mb-6">
-                                    Everything Included
-                                </h3>
+                            {/* Flex Layout */}
+                            <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center gap-6">
+                                {/* LEFT: Content */}
+                                <div className="flex-1">
+                                    <h3 className="font-display text-2xl font-bold mb-6">
+                                        DefSpace & IT Infra Program
+                                    </h3>
 
-                                <div className="space-y-4">
-                                    {benefits.map((benefit, index) => (
-                                        <motion.div
-                                            key={index}
-                                            initial={{ opacity: 0, x: 20 }}
-                                            whileInView={{ opacity: 1, x: 0 }}
-                                            viewport={{ once: true }}
-                                            transition={{
-                                                duration: 0.3,
-                                                delay: 0.3 + index * 0.1,
-                                            }}
-                                            className="flex items-center gap-3"
-                                        >
-                                            <CheckCircle2 className="w-5 h-5 text-primary shrink-0" />
-                                            <span className="text-foreground">
-                                                {benefit}
-                                            </span>
-                                        </motion.div>
-                                    ))}
+                                    <div className="space-y-4">
+                                        {benefits.map((benefit, index) => (
+                                            <motion.div
+                                                key={index}
+                                                initial={{ opacity: 0, x: 20 }}
+                                                whileInView={{
+                                                    opacity: 1,
+                                                    x: 0,
+                                                }}
+                                                viewport={{ once: true }}
+                                                transition={{
+                                                    duration: 0.3,
+                                                    delay: 0.3 + index * 0.1,
+                                                }}
+                                                className="flex items-start gap-3"
+                                            >
+                                                <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-1" />
+                                                <span className="text-foreground">
+                                                    {benefit}
+                                                </span>
+                                            </motion.div>
+                                        ))}
+                                    </div>
                                 </div>
 
-                                <div className="mt-8 pt-6 border-t border-border">
-                                    <div className="flex items-baseline gap-2">
-                                        <span className="text-4xl font-display font-bold gradient-text">
-                                            $29
-                                        </span>
-                                        <span className="text-muted-foreground">
-                                            /month per user
-                                        </span>
-                                    </div>
-                                    <p className="text-sm text-muted-foreground mt-2">
-                                        Billed annually. Enterprise pricing
-                                        available.
-                                    </p>
+                                {/* RIGHT: Image */}
+                                <div className="md:w-40 w-28 self-center md:self-start">
+                                    <img
+                                        src="/defSpace.png"
+                                        alt="DefSpace Logo"
+                                        className="w-full h-auto object-contain drop-shadow-lg select-none"
+                                    />
                                 </div>
                             </div>
                         </div>

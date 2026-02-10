@@ -136,7 +136,6 @@
     backdrop-filter: blur(16px);
     border-radius: 1rem;
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-
   }
   
   /* LIFT */
@@ -158,3 +157,62 @@
     background: radial-gradient(ellipse at bottom right, hsla(0,84%,50%,0.05) 0%, transparent 60%);
   }
   
+
+  /* Business AI Roadmap Gradient Colors */
+/* =========================================================
+   BUSINESS AI ROADMAP GRADIENT COLORS (RED THEME)
+   ========================================================= */
+
+/* Phase 1 – bright → normal */
+.gradient-primary-1 {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 84%, 45%),
+    hsl(0, 84%, 40%)
+  );
+}
+
+/* Phase 2 – normal → slightly darker */
+.gradient-primary-2 {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 84%, 45% ,0.8),
+    hsl(0, 84%, 40%,0.8)
+  );
+}
+
+/* Phase 3 – darker → deep red */
+.gradient-primary-3 {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 84%, 45% ,0.7),
+    hsl(0, 84%, 40%,0.7)
+  );
+}
+
+/* Phase 4 – deep → darker red */
+.gradient-primary-4 {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 84%, 45%,0.6),
+    hsl(0, 84%, 40%,0.6)
+  );
+}
+
+/* Phase 5 – intense deeper red tones */
+.gradient-primary-5 {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 84%, 45%,0.5),
+    hsl(0, 84%, 40%,0.5)
+  );
+}
+
+/* Phase 6 – luxury dark red for mastery */
+.gradient-primary-6 {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 84%, 45%,0.4),
+    hsl(0, 84%, 40%,0.4)
+  );
+}

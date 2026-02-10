@@ -21,7 +21,7 @@ export const programmingDSARoadmap = {
       duration: "4–6 Weeks",
       icon: Terminal,
       checkIcon: CheckCircle2,
-      color: "from-primary to-primary/80",
+      color: "gradient-primary-1",
       skills: [
         "Programming Basics",
         "C Language Fundamentals",
@@ -36,7 +36,7 @@ export const programmingDSARoadmap = {
       duration: "6–8 Weeks",
       icon: Shield,
       checkIcon: CheckCircle2,
-      color: "from-primary/90 to-primary/70",
+      color: "gradient-primary-2",
       skills: [
         "C++ Programming",
         "Functions & Pointers",
@@ -51,7 +51,7 @@ export const programmingDSARoadmap = {
       duration: "8–10 Weeks",
       icon: Cloud,
       checkIcon: CheckCircle2,
-      color: "from-primary/80 to-primary/60",
+      color: "gradient-primary-3",
       skills: [
         "Python Fundamentals",
         "Data Handling in Python",
@@ -66,7 +66,7 @@ export const programmingDSARoadmap = {
       duration: "6–8 Weeks",
       icon: Server,
       checkIcon: CheckCircle2,
-      color: "from-primary/70 to-primary/50",
+      color: "gradient-primary-4",
       skills: [
         "Arrays & Strings",
         "Linked Lists",
@@ -81,7 +81,7 @@ export const programmingDSARoadmap = {
       duration: "8–10 Weeks",
       icon: Lock,
       checkIcon: CheckCircle2,
-      color: "from-primary/60 to-primary/40",
+      color: "gradient-primary-5",
       skills: [
         "Trees & Graphs",
         "Searching & Sorting",
@@ -96,7 +96,7 @@ export const programmingDSARoadmap = {
       duration: "Ongoing",
       icon: Award,
       checkIcon: CheckCircle2,
-      color: "from-primary/50 to-primary/30",
+      color: "gradient-primary-6",
       skills: [
         "Competitive Programming",
         "Interview Preparation",

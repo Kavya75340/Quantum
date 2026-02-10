@@ -70,7 +70,7 @@ export const Testimonials = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="glass-card p-6 hover-lift"
+                            className="border-1 border-gray-400/20 rounded-lg bg-gray-100/20 p-6 hover-lift"
                         >
                             <Quote className="w-10 h-10 text-primary/30 mb-4" />
                             <p className="text-foreground mb-6 leading-relaxed">
