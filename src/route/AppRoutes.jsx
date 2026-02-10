@@ -18,10 +18,11 @@ import Corporate from "@/component/pages/Internship/Corporate";
 import College from "@/component/pages/Internship/College";
 
 // // More
-// import Blog from "@/component/pages/Blog/Blog";
 import Resources from "../component/pages/More/Resources";
 import About from "../component/pages/More/About";
-// import Contact from "@/component/pages/Contact/Contact";
+import Blog from "../component/pages/More/Blog";
+import Contact from "@/component/pages/More/Contact";
+
 import PrivacyPolicy from "../component/pages/Policy/PrivacyPolicy";
 import TermsCondition from "../component/pages/Policy/TermsCondition";
 import CookiePolicy from "../component/pages/Policy/CookiePolicy";
@@ -66,10 +67,10 @@ const AppRoutes = () => {
             />
 
             {/* MORE */}
-            {/* <Route path="/blog" element={<Blog />} /> */}
+            <Route path="/blog" element={<Blog />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/about" element={<About />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/contact" element={<Contact />} />
 
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms-condition" element={<TermsCondition />} />
