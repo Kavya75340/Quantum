@@ -60,10 +60,10 @@ const offices = [
         timezone: "IST (UTC+5:30)",
     },
     {
-        city: "Mumbai",
-        country: "India",
+        city: "Montreal",
+        country: "Canada",
         type: "Regional Office",
-        timezone: "IST (UTC+5:30)",
+        timezone: "EST (UTC-5:00)",
     },
     {
         city: "Delhi NCR",
@@ -72,13 +72,12 @@ const offices = [
         timezone: "IST (UTC+5:30)",
     },
     {
-        city: "Hyderabad",
-        country: "India",
+        city: "ABU Dhabi",
+        country: "UAE",
         type: "Tech Hub",
-        timezone: "IST (UTC+5:30)",
+        timezone: "GST (UTC+4:30)",
     },
 ];
-
 const faqs = [
     {
         q: "How quickly can we start corporate training?",

@@ -5,29 +5,37 @@ import {
     Github,
     Youtube,
 } from "lucide-react";
-
 const footerLinks = {
-    Platform: [
-        "Learning Management",
-        "Analytics",
-        "Certifications",
-        "Enterprise",
-        "Integrations",
+    LearningPath: [
+        { name: "DefSpace & IT Infra", href: "/roadmaps/defspace-it-infra" },
+        { name: "Cloud & DevOps", href: "/roadmaps/cloud-devops" },
+        { name: "Cybersecurity", href: "/roadmaps/cybersecurity-devsecops" },
+        { name: "AI & Analytics", href: "/roadmaps/business-ai-analytics" },
     ],
+
     Courses: [
-        "Cybersecurity",
-        "Data Science",
-        "Cloud Computing",
-        "AI & ML",
-        "DevOps",
+        {
+            name: "Project Management",
+            href: "/roadmaps/leadership-project-management",
+        },
+        { name: "Embedded & IoT", href: "/roadmaps/embedded-iot" },
+        {
+            name: "Programming Basics",
+            href: "/roadmaps/programming-ds-essentials",
+        },
     ],
-    Company: ["About Us", "Careers", "Blog", "Press", "Partners"],
-    Resources: [
-        "Documentation",
-        "Help Center",
-        "Community",
-        "Webinars",
-        "Case Studies",
+
+    Internship: [
+        { name: "Corporate", href: "/internship/corporate" },
+        { name: "College", href: "/internship/college-university" },
+        { name: "University", href: "/internship/college-university" },
+    ],
+
+    Company: [
+        { name: "About Us", href: "/about" },
+        { name: "Contact", href: "/contact" },
+        { name: "Blog", href: "/blog" },
+        { name: "Resources", href: "/resources" },
     ],
 };
 
@@ -81,10 +89,10 @@ export const Footer = () => {
                                 {links.map((link) => (
                                     <li key={link}>
                                         <a
-                                            href="#"
+                                            href={link.href}
                                             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                         >
-                                            {link}
+                                            {link.name}
                                         </a>
                                     </li>
                                 ))}
