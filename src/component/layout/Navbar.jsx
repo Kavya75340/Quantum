@@ -229,7 +229,7 @@ export const Navbar = () => {
                                             }
                                             className="w-full flex items-center justify-between px-4 py-2 text-left text-muted-foreground hover:text-foreground"
                                         >
-                                            <span>{item.label}</span>
+                                            <a href={item.href}>{item.label}</a>
                                             {item.submenu && (
                                                 <ChevronDown
                                                     className={`w-4 h-4 transition-transform ${
