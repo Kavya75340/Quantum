@@ -236,7 +236,7 @@ const Corporate = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                    className="absolute top-30 right-[10%] w-16 h-16 glass-card flex items-center justify-center"
+                    className="absolute top-30 right-[10%] w-16 h-16 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <Building2 className="w-8 h-8 text-primary" />
                 </motion.div>
@@ -247,7 +247,7 @@ const Corporate = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                    className="absolute top-1/3 right-[50%] w-14 h-14 glass-card flex items-center justify-center"
+                    className="absolute top-1/3 right-[50%] w-14 h-14 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <TrendingUp className="w-7 h-7 text-primary" />
                 </motion.div>
@@ -258,7 +258,7 @@ const Corporate = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                    className="absolute bottom-1/3 left-[40%] w-12 h-12 glass-card flex items-center justify-center"
+                    className="absolute bottom-1/3 left-[40%] w-12 h-12 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <Award className="w-6 h-6 text-primary" />
                 </motion.div>
@@ -269,7 +269,7 @@ const Corporate = () => {
                         <div>
                             <motion.div
                                 {...fadeInUp}
-                                className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-8"
+                                className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-8"
                             >
                                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                                 <span className="text-sm font-medium text-muted-foreground">
@@ -341,7 +341,7 @@ const Corporate = () => {
                                     ].map((brand) => (
                                         <div
                                             key={brand}
-                                            className="px-4 py-2 glass-card text-sm font-semibold text-muted-foreground"
+                                            className="px-4 py-2 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 text-sm font-semibold text-muted-foreground"
                                         >
                                             {brand}
                                         </div>
@@ -355,7 +355,7 @@ const Corporate = () => {
                             {...fadeInUp}
                             transition={{ duration: 0.5, delay: 0.2 }}
                         >
-                            <Card className="glass-card p-8 glow-effect">
+                            <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-8 glow-effect">
                                 <div className="text-center mb-6">
                                     <h3 className="font-display text-2xl font-bold mb-2">
                                         Build Your Custom Training Roadmap
@@ -490,7 +490,7 @@ const Corporate = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <GraduationCap className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Training Programs
@@ -519,7 +519,7 @@ const Corporate = () => {
                                     delay: index * 0.1,
                                 }}
                             >
-                                <Card className="glass-card hover-lift h-full group cursor-pointer overflow-hidden">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift h-full group cursor-pointer overflow-hidden">
                                     <CardContent className="p-8">
                                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                                             <program.icon className="w-7 h-7 text-primary" />
@@ -557,7 +557,7 @@ const Corporate = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Rocket className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Our Process
@@ -586,7 +586,7 @@ const Corporate = () => {
                                     delay: index * 0.15,
                                 }}
                             >
-                                <Card className="glass-card hover-lift h-full relative overflow-hidden">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift h-full relative overflow-hidden">
                                     <CardContent className="p-8">
                                         <div className="text-6xl font-display font-bold text-primary/10 mb-4">
                                             {step.step}
@@ -617,7 +617,7 @@ const Corporate = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Award className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Why Choose Us
@@ -643,7 +643,7 @@ const Corporate = () => {
                                     delay: index * 0.1,
                                 }}
                             >
-                                <Card className="glass-card hover-lift h-full">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift h-full">
                                     <CardContent className="p-8">
                                         <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
                                             <benefit.icon className="w-6 h-6 text-primary" />
@@ -669,7 +669,7 @@ const Corporate = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Globe className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Industries We Support
@@ -693,7 +693,7 @@ const Corporate = () => {
                                     delay: index * 0.1,
                                 }}
                             >
-                                <Card className="glass-card hover-lift text-center py-8 px-4 cursor-pointer group">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift text-center py-8 px-4 cursor-pointer group">
                                     <CardContent className="p-0">
                                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                                             <industry.icon className="w-7 h-7 text-primary" />
@@ -719,7 +719,7 @@ const Corporate = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Star className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Customer Success Highlights
@@ -741,7 +741,7 @@ const Corporate = () => {
                                     delay: index * 0.15,
                                 }}
                             >
-                                <Card className="glass-card hover-lift h-full">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift h-full">
                                     <CardContent className="p-8">
                                         <div className="flex gap-1 mb-4">
                                             {Array.from({

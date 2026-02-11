@@ -43,7 +43,7 @@ const RoadmapSection = ({ data }) => {
                             >
                                 {/* Card */}
                                 <div className="flex-1">
-                                    <Card className="glass-card hover-lift overflow-hidden">
+                                    <Card className="border-1 border-gray-400/20 rounded-lg hover-lift overflow-hidden">
                                         <CardContent className="p-0">
                                             {/* Header */}
                                             <div

@@ -197,7 +197,7 @@ const Resources = () => {
                 <motion.div
                     animate={{ y: [-10, 10, -10], rotate: [0, 5, 0] }}
                     transition={{ duration: 6, repeat: Infinity }}
-                    className="absolute top-40 left-[10%] w-16 h-16 glass-card flex items-center justify-center"
+                    className="absolute top-40 left-[10%] w-16 h-16 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <BookOpen className="w-8 h-8 text-primary" />
                 </motion.div>
@@ -205,7 +205,7 @@ const Resources = () => {
                 <motion.div
                     animate={{ y: [10, -10, 10], rotate: [0, -5, 0] }}
                     transition={{ duration: 7, repeat: Infinity }}
-                    className="absolute top-60 right-[15%] w-14 h-14 glass-card flex items-center justify-center"
+                    className="absolute top-60 right-[15%] w-14 h-14 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <Video className="w-7 h-7 text-primary" />
                 </motion.div>
@@ -213,7 +213,7 @@ const Resources = () => {
                 <motion.div
                     animate={{ y: [-15, 15, -15] }}
                     transition={{ duration: 5, repeat: Infinity }}
-                    className="absolute bottom-40 left-[20%] w-12 h-12 glass-card flex items-center justify-center"
+                    className="absolute bottom-40 left-[20%] w-12 h-12 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <Code className="w-6 h-6 text-primary" />
                 </motion.div>
@@ -266,7 +266,7 @@ const Resources = () => {
                                     onChange={(e) =>
                                         setSearchQuery(e.target.value)
                                     }
-                                    className="pl-12 pr-4 py-6 text-lg glass-card border-border/50"
+                                    className="pl-12 pr-4 py-6 text-lg border-1 border-gray-400/20 rounded-lg bg-gray-200/20 border-border/50"
                                 />
                             </div>
                         </motion.div>
@@ -322,7 +322,7 @@ const Resources = () => {
                             return (
                                 <div
                                     key={i}
-                                    className="glass-card p-6 relative"
+                                    className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-6 relative"
                                 >
                                     {resource.premium && (
                                         <div className="absolute top-4 right-4 px-3 py-1 bg-primary text-white text-xs rounded-full flex items-center gap-1">
@@ -397,7 +397,7 @@ const Resources = () => {
                                     className={`flex items-center gap-2 px-5 py-3 rounded-full ${
                                         activeCategory === cat.id
                                             ? "bg-primary text-white"
-                                            : "glass-card"
+                                            : "border-1 border-gray-400/20 rounded-lg bg-gray-200/20"
                                     }`}
                                 >
                                     <Icon className="w-4 h-4" />
@@ -414,7 +414,7 @@ const Resources = () => {
                             return (
                                 <div
                                     key={index}
-                                    className="group glass-card p-5 relative"
+                                    className="group border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-5 relative"
                                 >
                                     {resource.premium && (
                                         <Lock className="absolute top-3 right-3 w-4 h-4 text-primary" />
@@ -449,7 +449,7 @@ const Resources = () => {
             {/* PREMIUM CTA */}
             <section className="py-20">
                 <div className="container mx-auto px-6">
-                    <div className="glass-card p-12 text-center relative">
+                    <div className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-12 text-center relative">
                         <div className="w-16 h-16 mx-auto mb-6 bg-primary rounded-2xl flex items-center justify-center">
                             <Award className="w-8 h-8 text-white" />
                         </div>

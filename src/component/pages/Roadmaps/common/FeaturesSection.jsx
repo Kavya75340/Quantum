@@ -55,7 +55,7 @@ const FeaturesSection = () => {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
                         >
-                            <Card className="glass-card h-full hover-lift">
+                            <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 h-full hover-lift">
                                 <CardContent className="p-6">
                                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                                         <feature.icon className="w-6 h-6 text-primary" />

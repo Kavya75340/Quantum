@@ -176,7 +176,7 @@ const Contact = () => {
                         {stats.map((stat, i) => (
                             <div
                                 key={i}
-                                className="glass-card p-5 text-center hover-lift"
+                                className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-5 text-center hover-lift"
                             >
                                 <div className="text-3xl font-bold gradient-text font-display">
                                     {stat.value}
@@ -202,7 +202,7 @@ const Contact = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: i * 0.1 }}
-                                className="glass-card p-6 hover-lift group cursor-pointer block"
+                                className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-6 hover-lift group cursor-pointer block"
                             >
                                 <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                                     <method.icon className="w-7 h-7 text-primary" />
@@ -234,7 +234,7 @@ const Contact = () => {
                             viewport={{ once: true }}
                             className="lg:col-span-3"
                         >
-                            <div className="glass-card p-8 md:p-10">
+                            <div className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-8 md:p-10">
                                 <h2 className="text-3xl font-bold mb-2 font-display">
                                     Send Us a Message
                                 </h2>
@@ -396,7 +396,7 @@ const Contact = () => {
                             className="lg:col-span-2 space-y-6"
                         >
                             {/* Why Contact Us */}
-                            <div className="glass-card p-6">
+                            <div className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-6">
                                 <h3 className="font-bold text-lg mb-4 font-display">
                                     Why Choose Quantum Training?
                                 </h3>
@@ -439,7 +439,7 @@ const Contact = () => {
                             </div>
 
                             {/* Office Hours */}
-                            <div className="glass-card p-6">
+                            <div className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-6">
                                 <div className="flex items-center gap-3 mb-4">
                                     <Clock className="w-5 h-5 text-primary" />
                                     <h3 className="font-bold text-lg font-display">
@@ -475,7 +475,7 @@ const Contact = () => {
                             </div>
 
                             {/* Quick CTA */}
-                            <div className="glass-card p-6 bg-primary/5 border-primary/20">
+                            <div className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-6 bg-primary/5 border-primary/20">
                                 <Building2 className="w-8 h-8 text-primary mb-3" />
                                 <h3 className="font-bold text-lg mb-2 font-display">
                                     Enterprise Solutions
@@ -517,7 +517,7 @@ const Contact = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: i * 0.1 }}
-                                className="glass-card p-6 hover-lift text-center"
+                                className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-6 hover-lift text-center"
                             >
                                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                                     <MapPin className="w-6 h-6 text-primary" />
@@ -559,7 +559,7 @@ const Contact = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: i * 0.05 }}
-                                className="glass-card overflow-hidden"
+                                className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 overflow-hidden"
                             >
                                 <button
                                     onClick={() =>
@@ -602,7 +602,7 @@ const Contact = () => {
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        className="glass-card p-12 md:p-16 text-center glow-effect max-w-4xl mx-auto"
+                        className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-12 md:p-16 text-center glow-effect max-w-4xl mx-auto"
                     >
                         <h2 className="text-4xl md:text-5xl font-bold mb-6 font-display">
                             Ready to{" "}

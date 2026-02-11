@@ -264,7 +264,7 @@ const College = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                    className="absolute top-1/4 left-[8%] w-16 h-16 glass-card flex items-center justify-center"
+                    className="absolute top-1/4 left-[8%] w-16 h-16 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <GraduationCap className="w-8 h-8 text-primary" />
                 </motion.div>
@@ -275,7 +275,7 @@ const College = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                    className="absolute top-1/3 right-[12%] w-14 h-14 glass-card flex items-center justify-center"
+                    className="absolute top-1/3 right-[12%] w-14 h-14 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <Rocket className="w-7 h-7 text-primary" />
                 </motion.div>
@@ -286,7 +286,7 @@ const College = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                    className="absolute bottom-1/3 left-[15%] w-12 h-12 glass-card flex items-center justify-center"
+                    className="absolute bottom-1/3 left-[15%] w-12 h-12 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <Trophy className="w-6 h-6 text-primary" />
                 </motion.div>
@@ -297,7 +297,7 @@ const College = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                    className="absolute top-[20%] right-[25%] w-10 h-10 glass-card flex items-center justify-center"
+                    className="absolute top-[20%] right-[25%] w-10 h-10 border-1 border-gray-400/20 rounded-lg bg-gray-200/20 flex items-center justify-center"
                 >
                     <BookOpen className="w-5 h-5 text-primary" />
                 </motion.div>
@@ -306,7 +306,7 @@ const College = () => {
                     <div className="max-w-4xl mx-auto text-center">
                         <motion.div
                             {...fadeInUp}
-                            className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-8"
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-8"
                         >
                             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                             <span className="text-sm font-medium text-muted-foreground">
@@ -368,7 +368,7 @@ const College = () => {
                             {stats.map((stat, index) => (
                                 <div
                                     key={index}
-                                    className="glass-card p-4 text-center"
+                                    className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 p-4 text-center"
                                 >
                                     <div className="text-2xl md:text-3xl font-display font-bold gradient-text">
                                         {stat.value}
@@ -390,7 +390,7 @@ const College = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <BookOpen className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 College Programs
@@ -418,7 +418,7 @@ const College = () => {
                                     delay: index * 0.1,
                                 }}
                             >
-                                <Card className="glass-card hover-lift h-full group cursor-pointer overflow-hidden relative">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift h-full group cursor-pointer overflow-hidden relative">
                                     <div className="absolute top-4 right-4">
                                         <Badge className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
                                             {program.tag}
@@ -476,7 +476,7 @@ const College = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Target className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Learning Tracks
@@ -525,7 +525,7 @@ const College = () => {
                                     }}
                                 >
                                     <Card
-                                        className={`glass-card hover-lift cursor-pointer transition-all ${
+                                        className={`border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift cursor-pointer transition-all ${
                                             activeTrack === track.name
                                                 ? "ring-2 ring-primary/50 glow-effect"
                                                 : ""
@@ -593,7 +593,7 @@ const College = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Building2 className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Our Network
@@ -619,7 +619,7 @@ const College = () => {
                                     delay: index * 0.08,
                                 }}
                             >
-                                <Card className="glass-card hover-lift text-center p-6 cursor-pointer group">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift text-center p-6 cursor-pointer group">
                                     <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                                         <GraduationCap className="w-8 h-8 text-primary" />
                                     </div>
@@ -647,7 +647,7 @@ const College = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Zap className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Why Quantum Training
@@ -676,7 +676,7 @@ const College = () => {
                                     delay: index * 0.1,
                                 }}
                             >
-                                <Card className="glass-card hover-lift h-full group">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift h-full group">
                                     <CardContent className="p-8">
                                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                                             <benefit.icon className="w-7 h-7 text-primary" />
@@ -702,7 +702,7 @@ const College = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Star className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 Success Stories
@@ -728,7 +728,7 @@ const College = () => {
                                     delay: index * 0.15,
                                 }}
                             >
-                                <Card className="glass-card hover-lift h-full">
+                                <Card className="border-1 border-gray-400/20 rounded-lg bg-gray-200/20 hover-lift h-full">
                                     <CardContent className="p-8">
                                         <div className="flex items-center gap-1 mb-4">
                                             {Array.from({
@@ -774,7 +774,7 @@ const College = () => {
                         {...fadeInUp}
                         className="text-center max-w-3xl mx-auto mb-16"
                     >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-1 border-gray-400/20 rounded-lg bg-gray-200/20 mb-6">
                             <Rocket className="w-4 h-4 text-primary" />
                             <span className="text-sm font-medium text-muted-foreground">
                                 How It Works
